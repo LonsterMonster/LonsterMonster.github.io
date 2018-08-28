@@ -1,1 +1,107 @@
+/** Responsive**/
 
+@media screen and (max-width: 900px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+}
+@media screen and (max-width: 800px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+}
+@media screen and (max-width: 768px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+	
+}
+@media screen and (max-width: 736px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+}
+@media screen and (max-width: 667px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+	
+}
+@media screen and (max-width: 640px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+	
+}
+@media screen and (max-width: 600px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+	
+}
+@media screen and (max-width: 568px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+}
+@media screen and (max-width: 480px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+}
+@media screen and (max-width: 414px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+}
+@media screen and (max-width: 384px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+}
+@media screen and (max-width: 375px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+	
+}
+@media screen and (max-width: 320px){
+Topad.img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+}         
+/** /Responsive**/
