@@ -1,0 +1,30 @@
+.has-lines {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.has-lines:before,
+.has-lines:after {
+  content: '';
+  flex-grow: 1;
+  height: 1px;
+  background: #ccc;
+  min-width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.has-lines:before {
+  margin-right: 20px;
+}
+.has-lines:after {
+  margin-left: 20px;
+}
+body {
+  padding: 30px;
+}
+.description {
+  color: #777;
+  max-width: 500px;
+  margin: 50px auto;
+}
