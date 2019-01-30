@@ -20,9 +20,6 @@
 .has-lines:after {
   margin-left: 20px;
 }
-body {
-  padding: 30px;
-}
 .description {
   color: #777;
   max-width: 500px;
