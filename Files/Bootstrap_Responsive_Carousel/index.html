@@ -1,41 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class="container">
+
+<div class="container">
+  <h2>Carousel Example</h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
-
+      <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-
-      <div  class="item active">
-         <a href="http://192.168.1.8:591/includes/index.php?rt=product/category&path=71_92_80">
-        <img src="resources/image/18/7e/f.jpg"alt="PS Promo" style="width:100\\\\\\\\\\\\\\\\\\\\\\\\\\\\\%;">
-        <div class="carousel-caption">
-          <h3>All Playstation Games</h3>
-          <p>25&#37; OFF!!!</p>
-        </div>
-        </a>
+      <div class="item active">
+        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
       </div>
 
       <div class="item">
-        <a href="http://192.168.1.8:591/includes/index.php?rt=product/category&path=132_135">
-        <img src="resources/image/18/7f/1.jpg" alt="Board Game Promo" style="width:100\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\%;">
-        <div class="carousel-caption">
-          <h3>Board Game Sale</h3>
-          <p>20&#37; OFF!!!</p>
-        </div>
-        </a>
+        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
       </div>
-  
+    
+      <div class="item">
+        <img src="ny.jpg" alt="New york" style="width:100%;">
+      </div>
     </div>
 
     <!-- Left and right controls -->
@@ -49,4 +46,6 @@
     </a>
   </div>
 </div>
+
 </body>
+</html>
