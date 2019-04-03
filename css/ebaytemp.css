@@ -14,11 +14,6 @@ p {
 }
 img {
 	max-width: 100%;
-	  display: block;
-	  max-width:230px;
-	  max-height:95px;
-	  width: auto;
-	  height: auto;
 }
 .wrapper {
     margin: 0 auto;
