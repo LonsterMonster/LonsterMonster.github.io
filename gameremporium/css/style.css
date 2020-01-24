@@ -678,6 +678,12 @@ nav .container #responsive-nav form .search-btn {
 .header-ctn li.nav-toggle {
   display: none;
 }
+#navigation{
+	display: none;
+}
+
+
+
 
 /*----------------------------*\
 	responsive nav
@@ -687,6 +693,10 @@ nav .container #responsive-nav form .search-btn {
   .header-ctn .menu-toggle {
     display: inline-block;
   }
+  
+  #navigation{
+	display: block;
+  }  
   #responsive-nav {
     position: fixed;
     left: 0;
