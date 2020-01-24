@@ -467,7 +467,7 @@ textarea.input {
 }
 
 .header-search form {
-  position: absolute;
+  position: fixed;
 }
 
 .header-search form .input-select {
