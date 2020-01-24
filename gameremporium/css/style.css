@@ -472,6 +472,7 @@ textarea.input {
 .header-search form .input-select {
   margin-right: -4px;
   border-radius: 40px 0px 0px 40px;
+  width:130px;
 }
 
 .header-search form .input {
@@ -489,8 +490,24 @@ textarea.input {
   border-radius: 0px 40px 40px 0px;
 }
 
+nav .container #responsive-nav form {
+  position: relative;
+}
 
+nav .container #responsive-nav form .input {
+  width: 250px;
+  margin-right: -4px;
+}
 
+nav .container #responsive-nav form .search-btn {
+  height: 40px;
+  width: 250px;
+  background: #D10024;
+  color: #FFF;
+  font-weight: 700;
+  border: none;
+  border-radius: 0px 40px 40px 0px;
+}
 /*----------------------------*\
 	Cart
 \*----------------------------*/
