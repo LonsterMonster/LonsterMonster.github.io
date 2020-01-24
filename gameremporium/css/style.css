@@ -461,12 +461,12 @@ textarea.input {
 	Search
 \*----------------------------*/
 
-.
-{
+.header-search {
   padding: 15px 0px;
 }
 
-.header-search form {
+
+.header-searchform {
   position: absolute;
 }
 
