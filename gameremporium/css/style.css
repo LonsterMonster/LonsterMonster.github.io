@@ -682,7 +682,9 @@ nav .container #responsive-nav form .search-btn {
 	display: none;
 }
 
-
+#breadcrumb{
+	display:block;
+  }
 
 
 /*----------------------------*\
@@ -693,8 +695,10 @@ nav .container #responsive-nav form .search-btn {
   .header-ctn .menu-toggle {
     display: inline-block;
   }
-  
-  #navigation{
+  #breadcrumb{
+	display:none;
+  }
+  #mobile-navigation{
 	display: block;
   }  
   #responsive-nav {
