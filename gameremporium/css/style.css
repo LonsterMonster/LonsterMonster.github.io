@@ -643,7 +643,9 @@ nav .container #responsive-nav form .search-btn {
   border-bottom: 2px solid #E4E7ED;
   border-top: 3px solid #D10024;
 }
-
+#mobile-navigation{
+	display: none;
+  } 
 /*----------------------------*\
 	Main nav
 \*----------------------------*/
@@ -695,12 +697,6 @@ nav .container #responsive-nav form .search-btn {
   .header-ctn .menu-toggle {
     display: inline-block;
   }
-  #breadcrumb{
-	display:none;
-  }
-  #mobile-navigation{
-	display: block;
-  }  
   #responsive-nav {
     position: fixed;
     left: 0;
@@ -2203,9 +2199,16 @@ nav .container #responsive-nav form .search-btn {
     float: none;
     margin-top: 10px;
   }
+  #
   .section-tab-nav li {
     margin-top: 10px;
   }
+    #breadcrumb{
+	display:none;
+  }
+  #mobile-navigation{
+	display: block;
+  }  
 }
 
 @media only screen and (max-width: 480px) {
