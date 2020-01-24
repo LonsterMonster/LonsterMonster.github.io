@@ -461,12 +461,13 @@ textarea.input {
 	Search
 \*----------------------------*/
 
-.header-search {
+.
+{
   padding: 15px 0px;
 }
 
 .header-search form {
-  position: relative;
+  position: absolute;
 }
 
 .header-search form .input-select {
@@ -487,7 +488,6 @@ textarea.input {
   font-weight: 700;
   border: none;
   border-radius: 0px 40px 40px 0px;
-  position:absolute;
 }
 
 /*----------------------------*\
