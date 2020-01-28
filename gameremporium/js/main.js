@@ -2,10 +2,27 @@
 	"use strict"
 
 	// Mobile Nav toggle
-	$('.menu-toggle > a').on('click', function (e) {
-		  $('#responsive-nav').toggleClass('active');
-		 $('#responsive-nav').removeClass("active");
-	})
+	$('.menu-toggle > a').clickToggle(function() {   
+		$('#responsive-nav').toggleClass('active');
+	},
+	function() {
+		$('#responsive-nav').removeClass("active");
+	});
+	
+	
+	(function($) {
+		$.fn.clickToggle = function(func1, func2) {
+			var funcs = [func1, func2];
+			this.data('toggleclicked', 0);
+			this.click(function() {
+				var data = $(this).data();
+				var tc = data.toggleclicked;
+				$.proxy(funcs[tc], this)();
+				data.toggleclicked = (tc + 1) % 2;
+			});
+			return this;
+		};
+	}(jQuery));
 
 	// Fix cart dropdown from closing
 	$('.cart-dropdown').on('click', function (e) {
