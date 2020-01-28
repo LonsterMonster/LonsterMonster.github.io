@@ -4,9 +4,11 @@
 	// Mobile Nav toggle
 	$('.menu-toggle > a').on('click', function (e) {
 		e.preventDefault();
-		$('#responsive-nav').addClass('active');
+		
 		if($('#responsive-nav').hasClass("active"){
 			$('#responsive-nav').removeClass('active');
+		}else{
+		$('#responsive-nav').addClass('active');
 		}
 	})
 
