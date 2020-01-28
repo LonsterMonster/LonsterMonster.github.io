@@ -4,14 +4,9 @@
 	// Mobile Nav toggle
 	$('.menu-toggle > a').on('click', function (e) {
 		e.preventDefault();
-		if($('#responsive-nav').toggleClass('active'))
-		{
-		  $('#responsive-nav').toggleClass('none')
-		}
-		else
-		{
+		
 		  $('#responsive-nav').toggleClass('active');
-		}
+		
 	})
 
 	// Fix cart dropdown from closing
