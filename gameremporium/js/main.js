@@ -3,7 +3,7 @@
 
 	// Mobile Nav toggle
 	$('.menu-toggle > a').clickToggle(function() {   
-		$('#responsive-nav').toggleClass('active');
+		$('#responsive-nav').addClass('active');
 	},
 	function() {
 		$('#responsive-nav').removeClass("active");
